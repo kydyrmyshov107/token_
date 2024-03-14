@@ -1,0 +1,26 @@
+.Register {
+  .section {
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      input {
+        max-width: 210px;
+        width: 200px;
+        padding-block: 8px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+      }
+      button {
+        padding: 12px 30px;
+        border: none;
+        outline: none;
+        background: rgb(39, 69, 126);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}

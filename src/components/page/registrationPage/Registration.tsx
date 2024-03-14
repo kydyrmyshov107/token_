@@ -19,7 +19,6 @@ const Registration = () => {
       alert("write something");
     } else {
       const newItem = {
-        _id: Math.random(),
         userName: userName,
         email: email,
         password: password,
